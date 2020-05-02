@@ -1,0 +1,15 @@
+[global]
+	netbios name = thieroky-lin
+	workgroup = workgroup
+[lab8co]
+	path = /lab8co
+	readonly = no
+[developers]
+	path = /lab8co/developers
+	readonly = no
+
+
+
+
+
+

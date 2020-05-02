@@ -1,0 +1,350 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+polkitd  22410 25.4  0.5 620148 10096 ?        Ssl  Feb23 5112:35 /usr/lib/polkit-1/polkitd --no-debug
+dbus       680  0.8  0.2  74008  4528 ?        Ssl  Feb17 252:41 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       727  0.4  0.0 396368  1832 ?        Ssl  Feb17 127:38 /usr/libexec/accounts-daemon
+user      2586  0.4  0.0 403384  1612 ?        S    Feb17 146:57 /usr/bin/vmtoolsd -n vmusr
+user     24087  0.4  0.1 162152  2480 pts/0    S+   23:19   0:01 top
+bobama   20472  0.2  0.0 403360  1236 ?        S    Feb23  47:10 /usr/bin/vmtoolsd -n vmusr
+gbush    31913  0.2  0.0 403388  1500 ?        S    Feb23  48:43 /usr/bin/vmtoolsd -n vmusr
+user      2481  0.1  0.4 736224  7652 ?        Sl   Feb17  34:56 /usr/libexec/gsd-color
+bobama   20332  0.1  0.0 611420   552 ?        Sl   Feb23  24:48 /usr/libexec/gsd-account
+user     31227  0.1  0.1 116228  2832 pts/1    Ss   23:26   0:00 bash
+gbush    31802  0.1  0.0 611420   476 ?        Sl   Feb23  24:37 /usr/libexec/gsd-account
+root         1  0.0  0.2 194020  4724 ?        Ss   Feb17   1:19 /usr/lib/systemd/systemd --system --deserialize 22
+root         2  0.0  0.0      0     0 ?        S    Feb17   0:04 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Feb17   0:54 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Feb17   0:00 [migration/0]
+root         8  0.0  0.0      0     0 ?        S    Feb17   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        R    Feb17   5:10 [rcu_sched]
+root        10  0.0  0.0      0     0 ?        S<   Feb17   0:00 [lru-add-drain]
+root        11  0.0  0.0      0     0 ?        S    Feb17   0:09 [watchdog/0]
+root        13  0.0  0.0      0     0 ?        S    Feb17   0:00 [kdevtmpfs]
+root        14  0.0  0.0      0     0 ?        S<   Feb17   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        S    Feb17   0:03 [khungtaskd]
+root        16  0.0  0.0      0     0 ?        S<   Feb17   0:00 [writeback]
+root        17  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kintegrityd]
+root        18  0.0  0.0      0     0 ?        S<   Feb17   0:00 [bioset]
+root        19  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kblockd]
+root        20  0.0  0.0      0     0 ?        S<   Feb17   0:00 [md]
+root        21  0.0  0.0      0     0 ?        S<   Feb17   0:00 [edac-poller]
+root        27  0.0  0.0      0     0 ?        S    Feb17   0:52 [kswapd0]
+root        28  0.0  0.0      0     0 ?        SN   Feb17   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   Feb17   0:11 [khugepaged]
+root        30  0.0  0.0      0     0 ?        S<   Feb17   0:00 [crypto]
+root        38  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kthrotld]
+root        40  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kmpath_rdacd]
+root        41  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kaluad]
+root        42  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kpsmoused]
+root        44  0.0  0.0      0     0 ?        S<   Feb17   0:00 [ipv6_addrconf]
+root        57  0.0  0.0      0     0 ?        S<   Feb17   0:00 [deferwq]
+root        88  0.0  0.0      0     0 ?        S    Feb17   0:00 [kauditd]
+root       265  0.0  0.0      0     0 ?        S<   Feb17   0:00 [mpt_poll_0]
+root       268  0.0  0.0      0     0 ?        S<   Feb17   0:00 [mpt/0]
+root       269  0.0  0.0      0     0 ?        S<   Feb17   0:00 [ata_sff]
+root       276  0.0  0.0      0     0 ?        S    Feb17   0:00 [scsi_eh_0]
+root       277  0.0  0.0      0     0 ?        S<   Feb17   0:00 [scsi_tmf_0]
+root       278  0.0  0.0      0     0 ?        S    Feb17   0:00 [scsi_eh_1]
+root       280  0.0  0.0      0     0 ?        S<   Feb17   0:00 [scsi_tmf_1]
+root       281  0.0  0.0      0     0 ?        S    Feb17   0:00 [scsi_eh_2]
+root       283  0.0  0.0      0     0 ?        S<   Feb17   0:00 [scsi_tmf_2]
+root       285  0.0  0.0      0     0 ?        S<   Feb17   0:00 [ttm_swap]
+root       287  0.0  0.0      0     0 ?        S    Feb17   0:00 [irq/16-vmwgfx]
+root       363  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kdmflush]
+root       364  0.0  0.0      0     0 ?        S<   Feb17   0:00 [bioset]
+root       373  0.0  0.0      0     0 ?        S<   Feb17   0:00 [kdmflush]
+root       374  0.0  0.0      0     0 ?        S<   Feb17   0:00 [bioset]
+root       387  0.0  0.0      0     0 ?        S<   Feb17   0:00 [bioset]
+root       388  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfsalloc]
+root       389  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs_mru_cache]
+root       390  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-buf/dm-0]
+root       391  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-data/dm-0]
+root       392  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-conv/dm-0]
+root       393  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-cil/dm-0]
+root       394  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-reclaim/dm-]
+root       395  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-log/dm-0]
+root       396  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-eofblocks/d]
+root       397  0.0  0.0      0     0 ?        R    Feb17   1:56 [xfsaild/dm-0]
+root       398  0.0  0.0      0     0 ?        S<   Feb17   0:07 [kworker/0:1H]
+root       469  0.0  0.1  40360  3604 ?        Ss   Feb17   0:21 /usr/lib/systemd/systemd-journald
+root       523  0.0  0.0      0     0 ?        S<   Feb17   0:00 [nfit]
+root       596  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-buf/sda1]
+root       597  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-data/sda1]
+root       598  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-conv/sda1]
+root       599  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-cil/sda1]
+root       600  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-reclaim/sda]
+root       601  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-log/sda1]
+root       602  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xfs-eofblocks/s]
+root       603  0.0  0.0      0     0 ?        S    Feb17   0:00 [xfsaild/sda1]
+root       635  0.0  0.0      0     0 ?        S<   Feb17   0:00 [rpciod]
+root       636  0.0  0.0      0     0 ?        S<   Feb17   0:00 [xprtiod]
+libstor+   663  0.0  0.0   8576    28 ?        Ss   Feb17   0:06 /usr/bin/lsmd -d
+root       665  0.0  0.0 430540   868 ?        Ssl  Feb17   0:02 /usr/sbin/ModemManager
+avahi      670  0.0  0.0  62240   436 ?        Ss   Feb17   0:02 avahi-daemon: running [thieroky-lin.local]
+rtkit      674  0.0  0.0 198760    28 ?        SNsl Feb17   0:12 /usr/libexec/rtkit-daemon
+avahi      688  0.0  0.0  62112    20 ?        S    Feb17   0:00 avahi-daemon: chroot helper
+root       715  0.0  0.0  16884    16 ?        SNs  Feb17   0:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root       717  0.0  0.0  27332  1076 ?        Ss   Feb17   0:20 /usr/lib/systemd/systemd-logind
+root       774  0.0  0.1 554684  3392 ?        Ssl  Feb17   0:05 /usr/sbin/NetworkManager --no-daemon
+root       910  0.0  0.0 107380   860 ?        S    Feb17   0:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-ens160.pid -lf /var/lib/NetworkManager/dhclient-f6a36e4d-b6ee-4c32-a75e-ddb182260ec5-ens160.lease -cf /var/lib/NetworkManager/dhclient-ens160.conf ens160
+root      1119  0.0  0.1 481644  1916 ?        Ssl  Feb17   0:00 /usr/sbin/gdm
+root      1390  0.0  1.2 327548 24452 tty1     Rsl+ Feb17   0:57 /usr/bin/X :0 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-XTBvin/database -seat seat0 -nolisten tcp vt1
+bobama    1413  0.0  0.0 151208     0 pts/6    S+   Feb23   0:00 vim /share/republicans/president43
+nobody    1618  0.0  0.0  53852    48 ?        S    Feb17   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root      1620  0.0  0.0  53824     4 ?        S    Feb17   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root      1748  0.0  0.0 421976  1044 ?        Ssl  Feb17   0:02 /usr/libexec/upowerd
+root      1797  0.0  0.2 489020  5268 ?        Ssl  Feb17   0:24 /usr/libexec/packagekitd
+colord    1893  0.0  0.0 419392     0 ?        Ssl  Feb17   0:00 /usr/libexec/colord
+root      1985  0.0  0.1 535656  2784 ?        Sl   Feb17   0:00 gdm-session-worker [pam/gdm-password]
+user      2004  0.0  0.0 317260  1212 ?        Sl   Feb17   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+gdm       2008  0.0  0.0 452156     0 ?        Sl   Feb17   0:12 ibus-daemon --xim --panel disable
+gdm       2012  0.0  0.0 375832     0 ?        Sl   Feb17   0:00 /usr/libexec/ibus-dconf
+user      2015  0.0  0.0 770908  1692 ?        Ssl  Feb17   0:03 /usr/libexec/gnome-session-binary --session gnome-classic
+gdm       2016  0.0  0.0 506400   932 ?        Sl   Feb17   0:02 /usr/libexec/ibus-x11 --kill-daemon
+user      2031  0.0  0.0  58860     4 ?        S    Feb17   0:00 dbus-launch --sh-syntax --exit-with-session
+user      2032  0.0  0.0 134860  1528 ?        Ssl  Feb17   0:01 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+user      2101  0.0  0.0 389648     0 ?        Sl   Feb17   0:00 /usr/libexec/imsettings-daemon
+user      2105  0.0  0.0 388604     0 ?        Sl   Feb17   0:00 /usr/libexec/gvfsd
+user      2110  0.0  0.0 417772     0 ?        Sl   Feb17   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+user      2202  0.0  0.0  72384    44 ?        Ss   Feb17   0:09 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+user      2220  0.0  0.0 346736     0 ?        Sl   Feb17   0:00 /usr/libexec/at-spi-bus-launcher
+user      2225  0.0  0.0 134012   380 ?        Sl   Feb17   0:00 /bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+user      2231  0.0  0.0 233036   444 ?        Sl   Feb17   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+user      2261  0.0 13.4 3143872 253636 ?      Sl   Feb17  10:27 /usr/bin/gnome-shell
+user      2270  0.0  0.0 1204972  468 ?        S<l  Feb17   0:02 /usr/bin/pulseaudio --start --log-target=syslog
+user      2288  0.0  0.0 452960     0 ?        Sl   Feb17   0:08 ibus-daemon --xim --panel disable
+user      2293  0.0  0.0 375812     0 ?        Sl   Feb17   0:00 /usr/libexec/ibus-dconf
+user      2297  0.0  0.0 484960  1184 ?        Sl   Feb17   0:00 /usr/libexec/ibus-x11 --kill-daemon
+user      2300  0.0  0.0 375808     0 ?        Sl   Feb17   0:00 /usr/libexec/ibus-portal
+user      2308  0.0  0.0 424616     0 ?        Sl   Feb17   0:00 /usr/libexec/xdg-permission-store
+user      2312  0.0  0.1 908172  2408 ?        Sl   Feb17   0:00 /usr/libexec/gnome-shell-calendar-server
+user      2324  0.0  0.0 187356    72 ?        Sl   Feb17   0:00 /usr/libexec/dconf-service
+user      2328  0.0  0.0 485168  1036 ?        Sl   Feb17   0:02 /usr/libexec/mission-control-5
+user      2330  0.0  0.1 563844  2264 ?        Sl   Feb17   0:17 /usr/libexec/gvfs-udisks2-volume-monitor
+user      2340  0.0  0.0 909376     0 ?        Sl   Feb17   0:00 /usr/libexec/goa-daemon
+user      2341  0.0  0.0 371408     0 ?        Sl   Feb17   0:00 /usr/libexec/gvfs-goa-volume-monitor
+user      2387  0.0  0.0 1221176 1616 ?        Sl   Feb17   0:00 /usr/libexec/evolution-source-registry
+user      2388  0.0  0.0 547064   480 ?        Sl   Feb17   1:11 /usr/libexec/goa-identity-service
+user      2407  0.0  0.0 478364     0 ?        Sl   Feb17   0:00 /usr/libexec/gvfs-afc-volume-monitor
+user      2413  0.0  0.0 400468     0 ?        Sl   Feb17   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+user      2418  0.0  0.0 391380     0 ?        Sl   Feb17   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+user      2428  0.0  0.0 535528    68 ?        Sl   Feb17   0:00 /usr/libexec/gsd-mouse
+user      2429  0.0  0.1 725292  2564 ?        Sl   Feb17   0:04 /usr/libexec/gsd-power
+user      2430  0.0  0.0 560728   692 ?        Sl   Feb17   0:01 /usr/libexec/gsd-print-notifications
+user      2434  0.0  0.0 680616    16 ?        Sl   Feb17   0:00 /usr/libexec/gsd-rfkill
+user      2444  0.0  0.0 533140     0 ?        Sl   Feb17   0:00 /usr/libexec/gsd-screensaver-proxy
+user      2449  0.0  0.0 637752     0 ?        Sl   Feb17   0:00 /usr/libexec/gsd-smartcard
+user      2453  0.0  0.0 640784  1012 ?        Sl   Feb17   0:00 /usr/libexec/gsd-wacom
+user      2457  0.0  0.0 634728  1276 ?        Sl   Feb17   0:02 /usr/libexec/gsd-xsettings
+user      2460  0.0  0.0 577884     0 ?        Sl   Feb17   0:00 /usr/libexec/gsd-sound
+user      2463  0.0  0.0 563120   984 ?        Sl   Feb17   0:00 /usr/libexec/gsd-sharing
+user      2468  0.0  0.0 611420  1344 ?        Sl   Feb17   2:22 /usr/libexec/gsd-account
+user      2476  0.0  0.0 571288  1216 ?        Sl   Feb17   0:00 /usr/libexec/gsd-a11y-keyboard
+user      2477  0.0  0.0 535392     0 ?        Sl   Feb17   0:00 /usr/libexec/gsd-a11y-settings
+user      2478  0.0  0.0 484584  1060 ?        Sl   Feb17   0:00 /usr/libexec/gsd-clipboard
+user      2484  0.0  0.0 571492     0 ?        Sl   Feb17   0:00 /usr/libexec/gsd-datetime
+user      2487  0.0  0.0 617980  1424 ?        Sl   Feb17   1:00 /usr/libexec/gsd-housekeeping
+user      2490  0.0  0.0 642920  1080 ?        Sl   Feb17   0:00 /usr/libexec/gsd-keyboard
+user      2494  0.0  0.1 1033820 1968 ?        Sl   Feb17   0:02 /usr/libexec/gsd-media-keys
+user      2525  0.0  0.0 630044   928 ?        Sl   Feb17   0:00 /usr/libexec/gsd-printer
+user      2536  0.0  0.0 1116336    0 ?        Sl   Feb17   0:00 /usr/libexec/evolution-calendar-factory
+user      2543  0.0  0.5 1028704 10324 ?       Sl   Feb17   0:01 nautilus-desktop --force
+user      2562  0.0  0.0 464612   736 ?        Sl   Feb17   0:03 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+user      2579  0.0  0.0 302144     0 ?        Sl   Feb17   0:00 /usr/libexec/ibus-engine-simple
+user      2593  0.0  0.0 545964  1168 ?        Sl   Feb17   0:00 abrt-applet
+user      2598  0.0  0.1 601920  3560 ?        Sl   Feb17   0:00 /usr/libexec/tracker-store
+user      2616  0.0  0.0 668628     0 ?        SNl  Feb17   0:00 /usr/libexec/tracker-extract
+user      2624  0.0  0.0 1218228 1600 ?        Sl   Feb17   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2536x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2536/2
+user      2626  0.0  0.0 713956    76 ?        SNl  Feb17   0:00 /usr/libexec/tracker-miner-apps
+user      2631  0.0  0.0 657120  1460 ?        SNl  Feb17   0:00 /usr/libexec/tracker-miner-fs
+user      2640  0.0  0.0 561664     0 ?        SNl  Feb17   0:00 /usr/libexec/tracker-miner-user-guides
+user      2650  0.0  0.1 480416  2372 ?        Sl   Feb17   0:00 /usr/bin/seapplet
+user      2695  0.0  0.1 1137544 2208 ?        Sl   Feb17   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2536x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2536/3
+user      2697  0.0  0.0 1071124    0 ?        Sl   Feb17   0:00 /usr/libexec/evolution-addressbook-factory
+user      2750  0.0  0.0 1182000    0 ?        Sl   Feb17   0:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2697x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2697/2
+user      2834  0.0  0.0 315612  1068 ?        Sl   Feb17   0:00 /usr/libexec/gvfsd-metadata
+gbush     5779  0.0  0.0 755784     0 ?        Sl   Feb23   0:00 /usr/libexec/gnome-terminal-server
+gbush     5795  0.0  0.0 181596   112 ?        S    Feb23   0:02 /usr/libexec/gconfd-2
+gbush     5810  0.0  0.0   8532     4 ?        S    Feb23   0:00 gnome-pty-helper
+gbush     5811  0.0  0.0 116216     8 pts/5    Ss+  Feb23   0:00 bash
+root      8927  0.0  0.0 945048   884 ?        Ssl  Feb23   0:00 /usr/sbin/libvirtd
+nobody    9120  0.0  0.0  53896    72 ?        S    Feb23   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root      9121  0.0  0.0  53868    24 ?        S    Feb23   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+user     12723  0.0  1.0 767252 19928 ?        Rl   Feb23   0:08 /usr/libexec/gnome-terminal-server
+user     12749  0.0  0.0   8532   312 ?        S    Feb23   0:00 gnome-pty-helper
+user     12750  0.0  0.0 116216  1140 pts/0    Ss   Feb23   0:00 bash
+root     13486  0.0  0.0 127368     8 ?        Ss   Feb23   0:00 /usr/sbin/lvmetad -f
+root     18836  0.0  0.1 325144  2524 tty3     Ssl+ Feb23   0:05 /usr/bin/X :2 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-NAZgOD/database -seat seat0 -nolisten tcp
+root     19459  0.0  0.0 387800     0 ?        Sl   Feb23   0:00 gdm-session-worker [pam/gdm-password]
+bobama   19725  0.0  0.0 317256     0 ?        Sl   Feb23   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+bobama   19733  0.0  0.0 697176  1368 ?        Ssl  Feb23   0:02 /usr/libexec/gnome-session-binary --session gnome-classic
+gdm      19746  0.0  0.0 452156     0 ?        Sl   Feb23   0:00 ibus-daemon --xim --panel disable
+gdm      19753  0.0  0.0 375832     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-dconf
+gdm      19757  0.0  0.0 506512    56 ?        Sl   Feb23   0:02 /usr/libexec/ibus-x11 --kill-daemon
+bobama   19765  0.0  0.0  58860     4 ?        S    Feb23   0:00 dbus-launch --sh-syntax --exit-with-session
+bobama   19783  0.0  0.0 134836   752 ?        Ssl  Feb23   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+bobama   19878  0.0  0.0 389644     0 ?        Sl   Feb23   0:00 /usr/libexec/imsettings-daemon
+bobama   19882  0.0  0.0 388604     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfsd
+bobama   19887  0.0  0.0 417772     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfsd-fuse /run/user/1002/gvfs -f -o big_writes
+bobama   19990  0.0  0.0  72384    48 ?        Ss   Feb23   0:05 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+bobama   20024  0.0  0.0 346736     0 ?        Sl   Feb23   0:00 /usr/libexec/at-spi-bus-launcher
+bobama   20029  0.0  0.0 134020     4 ?        Sl   Feb23   0:00 /bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+bobama   20034  0.0  0.0 233036     0 ?        Sl   Feb23   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+bobama   20065  0.0 15.0 3262824 283868 ?      Sl   Feb23   4:59 /usr/bin/gnome-shell
+bobama   20092  0.0  0.0 1204960  480 ?        S<l  Feb23   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+bobama   20118  0.0  0.0 453168     0 ?        Sl   Feb23   0:00 ibus-daemon --xim --panel disable
+bobama   20125  0.0  0.0 375812     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-dconf
+bobama   20131  0.0  0.0 484964     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-x11 --kill-daemon
+bobama   20135  0.0  0.0 375808     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-portal
+bobama   20146  0.0  0.0 431352     0 ?        Sl   Feb23   0:00 /usr/libexec/xdg-permission-store
+bobama   20150  0.0  0.0 907904     0 ?        Sl   Feb23   0:00 /usr/libexec/gnome-shell-calendar-server
+bobama   20170  0.0  0.0 485168  1008 ?        Sl   Feb23   0:01 /usr/libexec/mission-control-5
+bobama   20177  0.0  0.1 416244  2016 ?        Sl   Feb23   0:11 /usr/libexec/gvfs-udisks2-volume-monitor
+bobama   20183  0.0  0.0 909372     0 ?        Sl   Feb23   0:00 /usr/libexec/goa-daemon
+bobama   20188  0.0  0.0 371408     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-goa-volume-monitor
+bobama   20235  0.0  0.0 1223228 1440 ?        Sl   Feb23   0:00 /usr/libexec/evolution-source-registry
+bobama   20236  0.0  0.0 547064   232 ?        Sl   Feb23   0:44 /usr/libexec/goa-identity-service
+bobama   20261  0.0  0.0 187384    64 ?        Sl   Feb23   0:00 /usr/libexec/dconf-service
+bobama   20287  0.0  0.0 478364     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-afc-volume-monitor
+bobama   20293  0.0  0.0 400468     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+bobama   20300  0.0  0.0 391380     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+bobama   20321  0.0  0.0 535396     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-mouse
+bobama   20323  0.0  0.0 723136  1200 ?        Sl   Feb23   0:01 /usr/libexec/gsd-power
+bobama   20324  0.0  0.0 560740   648 ?        Sl   Feb23   0:00 /usr/libexec/gsd-print-notifications
+bobama   20325  0.0  0.0 680616     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-rfkill
+bobama   20326  0.0  0.0 533140     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-screensaver-proxy
+bobama   20327  0.0  0.0 637748     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-smartcard
+bobama   20328  0.0  0.0 640792    88 ?        Sl   Feb23   0:00 /usr/libexec/gsd-wacom
+bobama   20329  0.0  0.0 634668     4 ?        Sl   Feb23   0:02 /usr/libexec/gsd-xsettings
+bobama   20330  0.0  0.0 577884     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-sound
+bobama   20331  0.0  0.0 563116  1096 ?        Sl   Feb23   0:00 /usr/libexec/gsd-sharing
+bobama   20335  0.0  0.0 571288     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-a11y-keyboard
+bobama   20336  0.0  0.0 535392     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-a11y-settings
+bobama   20337  0.0  0.0 484584     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-clipboard
+bobama   20386  0.0  0.2 734452  5216 ?        Sl   Feb23  15:23 /usr/libexec/gsd-color
+bobama   20395  0.0  0.0 571492     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-datetime
+bobama   20398  0.0  0.0 617980   964 ?        Sl   Feb23   0:28 /usr/libexec/gsd-housekeeping
+bobama   20405  0.0  0.0 642920     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-keyboard
+bobama   20408  0.0  0.0 1034304 1332 ?        Sl   Feb23   0:02 /usr/libexec/gsd-media-keys
+bobama   20437  0.0  0.0 630044     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-printer
+bobama   20450  0.0  0.0 1028200 1768 ?        Sl   Feb23   0:00 nautilus-desktop --force
+bobama   20463  0.0  0.0 464612   676 ?        Sl   Feb23   0:02 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+bobama   20475  0.0  0.0 545964     0 ?        Sl   Feb23   0:00 abrt-applet
+bobama   20479  0.0  0.2 595048  4180 ?        Sl   Feb23   0:01 /usr/libexec/tracker-store
+bobama   20481  0.0  0.0 660432     0 ?        SNl  Feb23   0:00 /usr/libexec/tracker-extract
+bobama   20489  0.0  0.0 845424     0 ?        SNl  Feb23   0:00 /usr/libexec/tracker-miner-apps
+bobama   20497  0.0  0.0 730736  1584 ?        SNl  Feb23   0:00 /usr/libexec/tracker-miner-fs
+bobama   20500  0.0  0.0 1116336    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-calendar-factory
+bobama   20506  0.0  0.0 561672     0 ?        SNl  Feb23   0:00 /usr/libexec/tracker-miner-user-guides
+bobama   20550  0.0  0.0 332840    68 ?        S    Feb23   0:00 /usr/bin/seapplet
+bobama   21113  0.0  0.0 1062224    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx20500x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/20500/2
+bobama   21897  0.0  0.0 302144     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-engine-simple
+bobama   21899  0.0  0.0 315576     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfsd-metadata
+root     22461  0.0  0.0 583872   820 ?        Ssl  Feb23   2:28 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root     22538  0.0  0.0  78680    56 ?        Ss   Feb23   0:06 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -P /var/run/wpa_supplicant.pid
+root     22661  0.0  0.0      0     0 ?        S    22:50   0:00 [kworker/u2:2]
+root     22826  0.0  0.0      0     0 ?        S    23:02   0:00 [kworker/0:3]
+root     22911  0.0  0.0      0     0 ?        S    23:10   0:00 [kworker/0:2]
+postfix  22936  0.0  0.2  91888  4080 ?        S    23:13   0:00 pickup -l -t unix -u
+root     23000  0.0  0.0      0     0 ?        S    23:18   0:00 [kworker/0:1]
+geoclue  23338  0.0  0.0 540320  1316 ?        Ssl  Feb23   0:02 /usr/libexec/geoclue -t 5
+root     23653  0.0  0.0      0     0 ?        S    23:19   0:00 [kworker/u2:0]
+bobama   24093  0.0  0.0 756020    16 ?        Sl   Feb23   0:00 /usr/libexec/gnome-terminal-server
+bobama   24202  0.0  0.0 181596   156 ?        S    Feb23   0:02 /usr/libexec/gconfd-2
+bobama   24352  0.0  0.0   8532     4 ?        S    Feb23   0:00 gnome-pty-helper
+bobama   24355  0.0  0.0 116216     8 pts/6    Ss   Feb23   0:00 bash
+root     24420  0.0  0.0  48896   620 ?        Ss   Feb23   0:01 /usr/lib/systemd/systemd-udevd
+root     26570  0.0  0.0 228100    68 ?        Ss   Feb23   0:00 /usr/sbin/abrtd -d -s
+root     26592  0.0  0.0 225756   272 ?        Ss   Feb23   0:01 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Kernel panic - not syncing: Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+root     26652  0.0  0.0 225756   236 ?        Ss   Feb23   0:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root     30713  0.0  0.1 340556  2880 tty2     Ssl+ Feb23   0:06 /usr/bin/X :1 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-FDhCHB/database -seat seat0 -nolisten tcp
+root     30913  0.0  0.0 200064  1072 ?        Ss   Feb23   0:03 /usr/sbin/cupsd -f
+root     30951  0.0  0.0 107956   356 ?        S    23:25   0:00 sleep 60
+root     31011  0.0  0.0 112920    12 ?        Ss   Feb23   0:00 /usr/sbin/sshd -D
+root     31087  0.0  0.0  99684     0 ?        Ss   Feb23   0:00 /usr/bin/VGAuthService -s
+root     31088  0.0  0.0 250760  1552 ?        Ss   Feb23  18:50 /usr/bin/vmtoolsd
+root     31114  0.0  0.0 387800     0 ?        Sl   Feb23   0:00 gdm-session-worker [pam/gdm-password]
+gbush    31200  0.0  0.0 317256     0 ?        Sl   Feb23   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+root     31221  0.0  0.0  91784   240 ?        Ss   Feb23   0:09 /usr/libexec/postfix/master -w
+postfix  31223  0.0  0.0  91956    68 ?        S    Feb23   0:02 qmgr -l -t unix -u
+root     31257  0.0  0.3 350504  6700 ?        Sl   23:26   0:00 /usr/sbin/abrt-dbus -t133
+gbush    31329  0.0  0.0 697184  1592 ?        Ssl  Feb23   0:02 /usr/libexec/gnome-session-binary --session gnome-classic
+gbush    31340  0.0  0.0  58860     4 ?        S    Feb23   0:00 dbus-launch --sh-syntax --exit-with-session
+gbush    31341  0.0  0.0 134980  1068 ?        Ssl  Feb23   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+gbush    31410  0.0  0.0 389644     0 ?        Sl   Feb23   0:00 /usr/libexec/imsettings-daemon
+gbush    31414  0.0  0.0 388604     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfsd
+gbush    31419  0.0  0.0 417772     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfsd-fuse /run/user/1001/gvfs -f -o big_writes
+gbush    31504  0.0  0.0  72384    48 ?        Ss   Feb23   0:05 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+gbush    31534  0.0  0.0 346736     0 ?        Sl   Feb23   0:00 /usr/libexec/at-spi-bus-launcher
+gbush    31542  0.0  0.0 134020     4 ?        Sl   Feb23   0:00 /bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gbush    31549  0.0  0.0 233036     0 ?        Sl   Feb23   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gbush    31579  0.0 12.2 3185672 231132 ?      Sl   Feb23   4:53 /usr/bin/gnome-shell
+gbush    31588  0.0  0.0 1204944  328 ?        S<l  Feb23   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+root     31589  0.0  0.0 115572   924 ?        S    Feb23   0:33 /bin/bash /usr/sbin/ksmtuned
+gbush    31611  0.0  0.0 453212    28 ?        Sl   Feb23   0:00 ibus-daemon --xim --panel disable
+gbush    31616  0.0  0.0 375812     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-dconf
+gbush    31620  0.0  0.0 484964     4 ?        Sl   Feb23   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gbush    31623  0.0  0.0 375808     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-portal
+gbush    31632  0.0  0.0 431352     0 ?        Sl   Feb23   0:00 /usr/libexec/xdg-permission-store
+gbush    31633  0.0  0.0 908168     0 ?        Sl   Feb23   0:00 /usr/libexec/gnome-shell-calendar-server
+gbush    31648  0.0  0.0 485168   968 ?        Sl   Feb23   0:01 /usr/libexec/mission-control-5
+gbush    31652  0.0  0.1 416120  1992 ?        Sl   Feb23   0:11 /usr/libexec/gvfs-udisks2-volume-monitor
+gbush    31653  0.0  0.0 1223356 1456 ?        Sl   Feb23   0:00 /usr/libexec/evolution-source-registry
+gbush    31662  0.0  0.0 909372     0 ?        Sl   Feb23   0:00 /usr/libexec/goa-daemon
+root     31669  0.0  0.0  55528   116 ?        S<sl Feb23   0:01 /sbin/auditd
+root     31671  0.0  0.0  84556   108 ?        S<sl Feb23   0:02 /sbin/audispd
+gbush    31673  0.0  0.0 371408     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-goa-volume-monitor
+gbush    31674  0.0  0.0 187384    56 ?        Sl   Feb23   0:00 /usr/libexec/dconf-service
+root     31677  0.0  0.0  55644   316 ?        S<   Feb23   0:00 /usr/sbin/sedispatch
+gbush    31696  0.0  0.0 547064   520 ?        Sl   Feb23   0:44 /usr/libexec/goa-identity-service
+root     31732  0.0  0.0  52808   356 ?        Ss   Feb23   0:01 /usr/sbin/smartd -n -q never
+gbush    31740  0.0  0.0 478364     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-afc-volume-monitor
+gbush    31749  0.0  0.0 400468     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gbush    31757  0.0  0.0 391380     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+gbush    31769  0.0  0.0 535396    48 ?        Sl   Feb23   0:00 /usr/libexec/gsd-mouse
+gbush    31771  0.0  0.0 725284  1380 ?        Sl   Feb23   0:02 /usr/libexec/gsd-power
+gbush    31772  0.0  0.0 560728   696 ?        Sl   Feb23   0:00 /usr/libexec/gsd-print-notifications
+gbush    31775  0.0  0.0 680616     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-rfkill
+gbush    31780  0.0  0.0 533140     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-screensaver-proxy
+gbush    31786  0.0  0.0 637748     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-smartcard
+gbush    31789  0.0  0.0 575248    28 ?        Sl   Feb23   0:00 /usr/libexec/gsd-wacom
+gbush    31792  0.0  0.0 634672     0 ?        Sl   Feb23   0:02 /usr/libexec/gsd-xsettings
+gbush    31794  0.0  0.0 577884     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-sound
+gbush    31797  0.0  0.0 563116  1296 ?        Sl   Feb23   0:00 /usr/libexec/gsd-sharing
+gbush    31810  0.0  0.0 571284     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-a11y-keyboard
+gbush    31811  0.0  0.0 535392     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-a11y-settings
+gbush    31813  0.0  0.0 484584     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-clipboard
+gbush    31817  0.0  0.2 734484  5524 ?        Sl   Feb23  15:07 /usr/libexec/gsd-color
+gbush    31821  0.0  0.0 571492     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-datetime
+gbush    31824  0.0  0.0 617980  1236 ?        Sl   Feb23   0:28 /usr/libexec/gsd-housekeeping
+gbush    31827  0.0  0.0 642920     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-keyboard
+gbush    31831  0.0  0.0 1033820 1484 ?        Sl   Feb23   0:01 /usr/libexec/gsd-media-keys
+gbush    31864  0.0  0.0 630044     0 ?        Sl   Feb23   0:00 /usr/libexec/gsd-printer
+gbush    31877  0.0  0.1 1032784 1912 ?        Sl   Feb23   0:00 nautilus-desktop --force
+gbush    31890  0.0  0.0 1116332    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-calendar-factory
+gbush    31895  0.0  0.0 464612   672 ?        Sl   Feb23   0:02 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+gbush    31918  0.0  0.0 545960     0 ?        Sl   Feb23   0:00 abrt-applet
+root     31926  0.0  0.0 126288   420 ?        Ss   Feb23   0:06 /usr/sbin/crond -n
+gbush    31927  0.0  0.2 594912  4164 ?        Sl   Feb23   0:01 /usr/libexec/tracker-store
+gbush    31933  0.0  0.0 660352     0 ?        SNl  Feb23   0:00 /usr/libexec/tracker-extract
+gbush    31941  0.0  0.0 845416     4 ?        SNl  Feb23   0:00 /usr/libexec/tracker-miner-apps
+gbush    31949  0.0  0.0 730832  1532 ?        SNl  Feb23   0:00 /usr/libexec/tracker-miner-fs
+gbush    31956  0.0  0.0 561668    44 ?        SNl  Feb23   0:00 /usr/libexec/tracker-miner-user-guides
+gbush    31974  0.0  0.0 332856   100 ?        S    Feb23   0:00 /usr/bin/seapplet
+root     31976  0.0  0.0 451840  1332 ?        Ssl  Feb23   0:08 /usr/libexec/udisks2/udisksd
+gbush    32015  0.0  0.0 1210032    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx31890x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/31890/2
+root     32027  0.0  0.0      0     0 ?        S    23:26   0:00 [kworker/0:0]
+gbush    32070  0.0  0.0 1062224    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx31890x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/31890/3
+gbush    32073  0.0  0.0 1071120    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-addressbook-factory
+gbush    32118  0.0  0.0 1182132    0 ?        Sl   Feb23   0:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx32073x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/32073/2
+root     32239  0.0  0.0  25908    28 ?        Ss   Feb23   0:00 /usr/sbin/atd -f
+gbush    32291  0.0  0.0 302144     0 ?        Sl   Feb23   0:00 /usr/libexec/ibus-engine-simple
+user     32293  0.0  0.1 155860  2292 pts/1    R+   23:26   0:00 ps aux --sort -%cpu
+user     32294  0.0  0.0 110312   992 pts/1    S+   23:26   0:00 less
+gbush    32303  0.0  0.0 315576     0 ?        Sl   Feb23   0:00 /usr/libexec/gvfsd-metadata
+root     32467  0.0  0.0 201328    44 ?        Ssl  Feb23   0:01 /usr/sbin/gssproxy -D
+root     32481  0.0  0.1 270108  3556 ?        Ssl  Feb23   1:09 /usr/sbin/rsyslogd -n
+rpc      32529  0.0  0.0  69276    64 ?        Ss   Feb23   0:02 /sbin/rpcbind -w
+root     32610  0.0  0.0  90564   120 ?        Ss   Feb23   0:52 /sbin/rngd -f
+root     32623  0.0  0.0   6612     4 ?        Ss   Feb23   0:00 /usr/sbin/mcelog --ignorenodev --daemon --syslog
+root     32686  0.0  0.0 358760  1516 ?        Ssl  Feb23   0:02 /usr/bin/python2 -Es /usr/sbin/firewalld --nofork --nopid
